@@ -70,6 +70,9 @@ protected func UpdateQuantity() -> Void {
     }
 }
 
+/*
+Disabled for now due to Cyberpunk 2077 patch 2.5
+
 // The ammo counters shown in the lower right portion of the screen
 @wrapMethod(WeaponRosterGameController)
 private final func SetRosterSlotData() -> Void {
@@ -87,6 +90,7 @@ private final func SetRosterSlotData() -> Void {
         inkTextRef.SetText(this.m_weaponTotalAmmo, CommaDelineateString(this.GetAmmoText(weaponTotalAmmo, 4)));
     }
 }
+*/
 
 // Damage numbers
 @wrapMethod(AccumulatedDamageDigitLogicController)

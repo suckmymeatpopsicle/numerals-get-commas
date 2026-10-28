@@ -54,6 +54,10 @@ public class UserSettingsSS extends ScriptableSystem {
     public let centsDelineationFormat: CentsCommaDelineationFormat = CentsCommaDelineationFormat.Periods;
 
     // Options for giving commas to various UI elements.
+    
+    /*
+    Disabled for now due to Cyberpunk 2077 patch 2.5
+
     @runtimeProperty("ModSettings.mod", "COMMAS_Settings_ModTitle")
     @runtimeProperty("ModSettings.category", "COMMAS_Settings_UiOptions")
     @runtimeProperty("ModSettings.category.order", "2")
@@ -61,6 +65,7 @@ public class UserSettingsSS extends ScriptableSystem {
     @runtimeProperty("ModSettings.description", "COMMAS_Settings_AmmoCounterCommaFormatDescription")
     @runtimeProperty("ModSettings.dependency", "modEnabled")
     public let shouldCommaDelineateAmmoCounter: Bool = true;
+    */
 
     @runtimeProperty("ModSettings.mod", "COMMAS_Settings_ModTitle")
     @runtimeProperty("ModSettings.category", "COMMAS_Settings_UiOptions")
